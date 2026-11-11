@@ -59,8 +59,8 @@ I like software that is **clean, scalable and efficient** — and I like knowing
 
 | | Project | What it is | Stack |
 |:-:|:--|:--|:--|
-| 🦾 | **Robotic Arm · ROS** | Simulation & control system for robotic arms | `C++` `Python` `ROS` |
-| 🏁 | **Scuderia Xaverian** | Web platform for the university racing team | `Web` |
+| 🦾 | **[LeRobot SO-101 · Gabo's Arm](https://github.com/IEEERASJaverianaProjects/PROJECT_GABOS_ARM)** | Digital twin of the 6-DOF SO-101 arm — ROS 2 + Gazebo simulation, custom `ros2_control` interface and keyboard teleop | `ROS 2` `Gazebo` `C++` `Python` |
+| 🎓 | **[EduTrace](https://github.com/x19marlon/EDU-TRACE)** | Formative feedback platform for intro C++ — sandboxed in-browser compiler, teacher test cases and local AI feedback the teacher approves | `Go` `Next.js` `SQLite` `Ollama` |
 | 🧪 | **el_brief** | This portfolio — vaporwave, bilingual EN/ES, zero build step | `HTML` `CSS` `JS` |
 | ⏳ | **next...** | Breaking things, building something new | `???` |
 

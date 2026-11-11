@@ -12,6 +12,7 @@
 </head>
 <body>
   <div class="scanlines" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
 
   <!-- NAV -->
   <header class="nav">
@@ -39,7 +40,7 @@
 
       <div class="hero-content">
         <p class="chip"><span class="dot"></span><span data-i18n="hero.chip">Open to internships &amp; collaborations</span></p>
-        <h1 class="glitch" data-text="MARLON RESTREPO">MARLON RESTREPO</h1>
+        <h1 class="glitch" data-text="x19marlon">x19marlon</h1>
         <p class="role"><span class="prompt">&gt;</span> <span id="typer"></span><span class="caret">_</span></p>
         <p class="lead" data-i18n="hero.lead">Software engineer building backends, distributed systems and robots — and curious about everything that happens under the hood.</p>
         <div class="cta">
@@ -148,15 +149,17 @@
       <div class="projects">
         <article class="project">
           <p class="num">01</p>
-          <h3 data-i18n="projects.p1.title">Robotic Arm · ROS</h3>
-          <p data-i18n="projects.p1.desc">Simulation and control system for robotic arms — kinematics, motion planning and ROS nodes talking to each other.</p>
-          <ul class="tags small"><li>C++</li><li>Python</li><li>ROS</li></ul>
+          <h3 data-i18n="projects.p1.title">LeRobot SO-101 · Gabo's Arm</h3>
+          <p data-i18n="projects.p1.desc">Digital twin of the 6-DOF SO-101 robotic arm in ROS 2 and Gazebo. Modular packages for the URDF/Xacro description, the Gz ↔ ROS 2 bridge, a custom ros2_control hardware interface and keyboard teleoperation, with live visualization in RViz2.</p>
+          <ul class="tags small"><li>ROS 2</li><li>Gazebo</li><li>ros2_control</li><li>C++</li><li>Python</li></ul>
+          <a class="repo-link" href="https://github.com/IEEERASJaverianaProjects/PROJECT_GABOS_ARM" target="_blank" rel="noopener" data-i18n="projects.repo">View repo →</a>
         </article>
         <article class="project">
           <p class="num">02</p>
-          <h3>Scuderia Xaverian</h3>
-          <p data-i18n="projects.p2.desc">Web platform for the university's racing team: team info, sponsors and race updates in one place.</p>
-          <ul class="tags small"><li>Web</li><li>React</li></ul>
+          <h3>EduTrace</h3>
+          <p data-i18n="projects.p2.desc">Formative feedback platform for intro C++ courses. Students code and compile in the browser inside a sandbox; every submission runs against the teacher's test cases, and a local AI drafts feedback that the teacher reviews before it reaches the student — the AI proposes, the teacher decides.</p>
+          <ul class="tags small"><li>Go</li><li>Next.js</li><li>SQLite</li><li>Ollama</li><li>bubblewrap</li></ul>
+          <a class="repo-link" href="https://github.com/x19marlon/EDU-TRACE" target="_blank" rel="noopener" data-i18n="projects.repo">View repo →</a>
         </article>
         <article class="project project-next">
           <p class="num">03</p>
@@ -177,6 +180,27 @@
         <div class="pill"><span class="ico">🎬</span><span data-i18n="beyond.b3">Movies, movies and more movies</span></div>
         <div class="pill"><span class="ico">🤖</span><span data-i18n="beyond.b4">Robots — apparently a hobby too</span></div>
       </div>
+
+      <article class="pet">
+        <figure class="pet-photo">
+          <img src="assets/migao.jpeg" alt="Migao, a cream-colored French bulldog with one brown eye and one blue eye, sitting and looking up at the camera" width="1024" height="1280" loading="lazy" />
+        </figure>
+        <div class="pet-info">
+          <p class="pet-tag">// co-pilot.exe</p>
+          <h3>Migao</h3>
+          <p data-i18n="pet.desc">Fluffy cream-colored French bulldog and official Senior Debugging Supervisor. Rocks heterochromia — one brown eye for reviewing code, one blue eye for spotting bugs — and that skeptical look you get right before a failed deploy.</p>
+          <ul class="tags small">
+            <li data-i18n="pet.t1">French bulldog</li>
+            <li data-i18n="pet.t2">1 brown eye · 1 blue eye</li>
+            <li data-i18n="pet.t3">snack-driven development</li>
+          </ul>
+          <dl class="pet-stats">
+            <div><dt data-i18n="pet.s1">Code reviews</dt><dd>∞</dd></div>
+            <div><dt data-i18n="pet.s2">Bugs found</dt><dd>0</dd></div>
+            <div><dt data-i18n="pet.s3">Treats requested</dt><dd>9 999+</dd></div>
+          </dl>
+        </div>
+      </article>
     </section>
 
     <!-- CONTACT -->
