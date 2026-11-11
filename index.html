@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marlon Restrepo — Software Engineer</title>
+  <meta name="description" content="Portfolio of Marlon Restrepo — software engineer focused on backend, distributed systems and robotics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=JetBrains+Mono:wght@400;600&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="logo">mr<span>.dev</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#stack" data-i18n="nav.stack">Stack</a>
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="horizon" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="floor"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="chip"><span class="dot"></span><span data-i18n="hero.chip">Open to internships &amp; collaborations</span></p>
+        <h1 class="glitch" data-text="MARLON RESTREPO">MARLON RESTREPO</h1>
+        <p class="role"><span class="prompt">&gt;</span> <span id="typer"></span><span class="caret">_</span></p>
+        <p class="lead" data-i18n="hero.lead">Software engineer building backends, distributed systems and robots — and curious about everything that happens under the hood.</p>
+        <div class="cta">
+          <a class="btn btn-solid" href="#projects" data-i18n="hero.cta1">See my work</a>
+          <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Say hello</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>C++</span><i>✦</i><span>Go</span><i>✦</i><span>Java</span><i>✦</i><span>Python</span><i>✦</i><span>ROS</span><i>✦</i><span>Kafka</span><i>✦</i><span>Docker</span><i>✦</i><span>Kubernetes</span><i>✦</i><span>AWS</span><i>✦</i><span>PostgreSQL</span><i>✦</i>
+        <span>C++</span><i>✦</i><span>Go</span><i>✦</i><span>Java</span><i>✦</i><span>Python</span><i>✦</i><span>ROS</span><i>✦</i><span>Kafka</span><i>✦</i><span>Docker</span><i>✦</i><span>Kubernetes</span><i>✦</i><span>AWS</span><i>✦</i><span>PostgreSQL</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <p class="eyebrow">// 01 · <span data-i18n="about.eyebrow">whoami</span></p>
+      <h2 data-i18n-html="about.title">Engineer by training, <em>tinkerer</em> by nature.</h2>
+
+      <div class="about-grid">
+        <div class="window">
+          <div class="window-bar"><span></span><span></span><span></span><p>~/marlon/about.sh</p></div>
+          <pre class="window-body"><code><span class="c">$</span> cat profile.json
+{
+  <span class="k">"name"</span>: <span class="s">"Marlon Restrepo"</span>,
+  <span class="k">"based_in"</span>: <span class="s">"Bogotá, CO"</span>,
+  <span class="k">"studies"</span>: <span class="s">"Systems Engineering @ Javeriana"</span>,
+  <span class="k">"focus"</span>: [<span class="s">"backend"</span>, <span class="s">"distributed"</span>, <span class="s">"robotics"</span>],
+  <span class="k">"speaks"</span>: [<span class="s">"es"</span>, <span class="s">"en"</span>],
+  <span class="k">"status"</span>: <span class="s">"probably debugging"</span>
+}</code></pre>
+        </div>
+
+        <div class="about-text">
+          <p data-i18n="about.p1">I'm a Systems Engineering student at Pontificia Universidad Javeriana who likes to understand how things work all the way down — from a ROS node moving a robotic arm to a message travelling through a Kafka topic.</p>
+          <p data-i18n="about.p2">Right now I'm diving deep into backend services, distributed architectures, cloud and DevOps. I care about software that is clean, scalable and efficient — and about leaving teams better than I found them.</p>
+          <ul class="facts">
+            <li><b>3</b><span data-i18n="about.f1">leadership roles</span></li>
+            <li><b>5+</b><span data-i18n="about.f2">languages in daily use</span></li>
+            <li><b>∞</b><span data-i18n="about.f3">bugs squashed</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <p class="eyebrow">// 02 · <span data-i18n="stack.eyebrow">toolbox</span></p>
+      <h2 data-i18n-html="stack.title">The <em>stack</em> I reach for.</h2>
+
+      <div class="stack-grid">
+        <article class="card">
+          <h3 data-i18n="stack.lang">Languages</h3>
+          <ul class="tags"><li>C</li><li>C++</li><li>Java</li><li>Go</li><li>Python</li></ul>
+        </article>
+        <article class="card">
+          <h3 data-i18n="stack.fw">Frameworks &amp; runtimes</h3>
+          <ul class="tags"><li>Spring</li><li>React</li><li>Node.js</li><li>Kafka</li><li>ROS</li></ul>
+        </article>
+        <article class="card">
+          <h3 data-i18n="stack.db">Data</h3>
+          <ul class="tags"><li>PostgreSQL</li><li>MongoDB</li></ul>
+        </article>
+        <article class="card">
+          <h3 data-i18n="stack.ops">Cloud &amp; tooling</h3>
+          <ul class="tags"><li>Linux</li><li>Docker</li><li>Kubernetes</li><li>AWS</li><li>Git</li><li>Arduino</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORK / LEADERSHIP -->
+    <section id="work" class="section">
+      <p class="eyebrow">// 03 · <span data-i18n="work.eyebrow">leadership &amp; impact</span></p>
+      <h2 data-i18n-html="work.title">Where I <em>lead</em> and teach.</h2>
+
+      <ol class="timeline">
+        <li>
+          <span class="node" aria-hidden="true"></span>
+          <p class="when">IEEE Computer Society · Javeriana</p>
+          <h3 data-i18n="work.r1.title">Chairman</h3>
+          <p data-i18n="work.r1.desc">Lead the student chapter and coordinate its technical initiatives, workshops and events.</p>
+        </li>
+        <li>
+          <span class="node" aria-hidden="true"></span>
+          <p class="when">IEEE Robotics &amp; Automation Society · Javeriana</p>
+          <h3 data-i18n="work.r2.title">Vice President</h3>
+          <p data-i18n="work.r2.desc">Support robotics projects, technical initiatives and the chapter's digital presence.</p>
+        </li>
+        <li>
+          <span class="node" aria-hidden="true"></span>
+          <p class="when">Pontificia Universidad Javeriana</p>
+          <h3 data-i18n="work.r3.title">Teaching Assistant · Software Fundamentals</h3>
+          <p data-i18n="work.r3.desc">Help students turn software engineering concepts into working code through hands-on support.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <p class="eyebrow">// 04 · <span data-i18n="projects.eyebrow">selected work</span></p>
+      <h2 data-i18n-html="projects.title">Things I've <em>built</em>.</h2>
+
+      <div class="projects">
+        <article class="project">
+          <p class="num">01</p>
+          <h3 data-i18n="projects.p1.title">Robotic Arm · ROS</h3>
+          <p data-i18n="projects.p1.desc">Simulation and control system for robotic arms — kinematics, motion planning and ROS nodes talking to each other.</p>
+          <ul class="tags small"><li>C++</li><li>Python</li><li>ROS</li></ul>
+        </article>
+        <article class="project">
+          <p class="num">02</p>
+          <h3>Scuderia Xaverian</h3>
+          <p data-i18n="projects.p2.desc">Web platform for the university's racing team: team info, sponsors and race updates in one place.</p>
+          <ul class="tags small"><li>Web</li><li>React</li></ul>
+        </article>
+        <article class="project project-next">
+          <p class="num">03</p>
+          <h3 data-i18n="projects.p3.title">Next up…</h3>
+          <p data-i18n="projects.p3.desc">Currently experimenting, breaking things and building something new. Stay tuned.</p>
+          <ul class="tags small"><li>???</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- BEYOND -->
+    <section class="section beyond">
+      <p class="eyebrow">// 05 · <span data-i18n="beyond.eyebrow">offline mode</span></p>
+      <h2 data-i18n-html="beyond.title">Beyond the <em>code</em>.</h2>
+      <div class="beyond-grid">
+        <div class="pill"><span class="ico">🎮</span><span data-i18n="beyond.b1">League of Legends — chasing Diamond</span></div>
+        <div class="pill"><span class="ico">🎧</span><span data-i18n="beyond.b2">Always hunting for new music</span></div>
+        <div class="pill"><span class="ico">🎬</span><span data-i18n="beyond.b3">Movies, movies and more movies</span></div>
+        <div class="pill"><span class="ico">🤖</span><span data-i18n="beyond.b4">Robots — apparently a hobby too</span></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow">// 06 · <span data-i18n="contact.eyebrow">ping me</span></p>
+      <h2 class="big" data-i18n-html="contact.title">Let's build <em>something</em>.</h2>
+      <p class="lead" data-i18n="contact.lead">Always up for a conversation about software, robotics, distributed systems or a good idea.</p>
+      <div class="cta center">
+        <a class="btn btn-solid" href="mailto:marlongarcia5465@gmail.com">Email</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/marlonrestrepo/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/x19marlon" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Marlon Restrepo</p>
+    <p class="vt" data-i18n="footer.note">thanks for stopping by 👾</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
